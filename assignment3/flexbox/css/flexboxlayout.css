@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="resources/css/common.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/flexboxLayout.css">
+        <title>Flexbox Layout</title>
+    </head>
+    <body>
+        <header>
+            <a href="#">
+                <img class="logo" src="resources/images/cartoonhorse.jpeg" alt="logo" height=200 />
+            </a> 
+            <nav>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main__item1 item__background--pink">
+                <h2>main content section 1</h2>
+            </div>
+            <div class="main__item2 item__background--blue">
+                <h2>main content section 2</h2>
+            </div>
+            <div class="main__item3 item__background--purple" >
+                <h2>main content section 3</h2>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>                
+                </ul>
+            </nav>
+            &copy; Alison Lindsey
+        </footer>
+    </body>
+</html>
